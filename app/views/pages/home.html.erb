@@ -1,32 +1,7 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        .vl {
-            border-left: 3px solid grey;
-            height: 500px;
-            position: absolute;  
-            left: 50%;
-            margin-left: -3px;
-            top: 100;
-        }
-    </style>
-</head>
-<body>
-    <h1 style="text-align:center;">Welcome the Homepage</h1>
+<div class="center jumbotron">
+  <h1>ALPHA BLOG</h1>
+    <%= link_to "Sign Up", "#", class: "btn btn-primary btn-lg btn-xlarge" %>
+    <%# link_to "About", about_path %>
+</div>
 
-    <center><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1600%2F1*6W5eurFhYPpwNbRbqNImgQ.jpeg&f=1&nofb=1" height="500" alt="" srcset=""></center>
-    <hr>
-    <div class="vl"></div>
-    <h4>Opperating since 2019</h4>
-    
-</body>
-</html>  
-
-<%= link_to "Alpha Blog", articles_path %>
-<%= link_to "About", about_path %>
