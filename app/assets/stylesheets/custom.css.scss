@@ -38,8 +38,14 @@ $navbar-default-bg: #0c162b;
     
 }
 
+.article-meta-details {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+    // padding-top: 10px;
+}
+
 .articles-actions {
-    border-top: 2px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
     padding-top: 5px;
 }
 
@@ -53,7 +59,7 @@ $navbar-default-bg: #0c162b;
 }
 
 .article-body {
-    border-top: 2px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;   
 }
