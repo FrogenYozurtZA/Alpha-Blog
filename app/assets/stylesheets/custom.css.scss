@@ -21,16 +21,22 @@ $navbar-default-bg: #0c162b;
     text-align: center;
 }
 
-.jumbotron {
+.home-jumbotron {
     background-image: asset_url("index.jpeg");
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
     background-size: cover;
     height: 700px;
 }
 
-.jumbotron h1 {
+.about-jumbotron {
+    background-image: asset_url("about.jpeg");
     color: #fff;
     text-align: center;
     margin-bottom: 30px;
+    background-size: cover;
+    height: 700px;
 }
 
 .btn-xlarge {
